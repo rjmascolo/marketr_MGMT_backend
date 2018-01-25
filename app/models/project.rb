@@ -5,11 +5,13 @@ class Project < ApplicationRecord
   has_many :revisions
   has_many :deliverables
 
+  has_many :notifications
+
 
   # belongs_to :campaign
 
   def get_users
-    self.users.map{ |person| person.slice(:id, :first_name, :last_name, :position, :image)}
+    self.users.map{ |person| person.slice(:id, :first_name, :last_name, :position, :image, :company_id)}
   end
 
 end
