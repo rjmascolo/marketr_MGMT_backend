@@ -13,8 +13,8 @@
 secret: 'alsdkfjklsdfjeiowlknasfdivu32983adnffhe'
 
 s3_bucket: "project-management-app-user-uploads-ryan-mascolo"
-aws_access_key_id: "AKIAI6FSQ3O3XDYNVISQ"
+aws_access_key_id: "AKIAIOOBOQFKSWL5GXBQ"
 
-aws_secret_key: "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"
+aws_secret_key: "QSjmzG1rkB3J7gdpBRp/CLG+8WBb5YYSEIAC/zlo"
 
 AWS_REGION: 'us-east-2'
